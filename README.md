@@ -69,7 +69,7 @@ The application will open at `http://localhost:8501`
 
 *Watch Intellexa in action: Processing YouTube videos, analyzing research papers, and providing intelligent responses with audio support.*
 
-## 💡 Key Advantages
+<!-- ## 💡 Key Advantages
 
 ### 🎯 Content Versatility
 - **YouTube Videos**: Automatic transcript extraction and timestamp-based analysis
@@ -88,7 +88,7 @@ The application will open at `http://localhost:8501`
 - **High-Speed Processing**: Leverages Groq's lightning-fast inference
 - **Real-Time Responses**: Minimal latency for seamless conversations
 - **Voice Integration**: Speak naturally and get spoken responses
-- **Clean Interface**: Intuitive Streamlit UI with modern design
+- **Clean Interface**: Intuitive Streamlit UI with modern design -->
 
 ## 🛠 Usage Guide
 
