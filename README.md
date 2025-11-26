@@ -1,4 +1,4 @@
-# Youtube AI Assistant
+<!-- # Youtube AI Assistant
 
 lets users upload YouTube URLs and instantly chat with the video's content. Under the hood, it uses a RAG (Retrieval-Augmented Generation) pipeline enhanced with LangGraph memory, ensuring smooth, context-aware conversations across past few interactions. Whether summarizing videos or answering questions, the system keeps track of the discussion for a seamless experience.
 
@@ -73,4 +73,4 @@ streamlit run app.py
 ---
 
 ![Image](https://github.com/user-attachments/assets/596cddc1-4415-4167-84a6-5f77960e7e1d)
-
+ -->
