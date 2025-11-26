@@ -43,7 +43,7 @@ Intellexa is an advanced AI assistant that lets you have meaningful conversation
 
 ```bash
 # 1. Clone and setup
-git clone git clone https://github.com/sapana27/Intellexa-Content_Analysis_AI.git
+git clone https://github.com/sapana27/Intellexa-Content_Analysis_AI.git
 cd Intellexa-Content_Analysis_AI
 
 # 2. Create virtual environment
@@ -59,6 +59,7 @@ echo "GROQ_API_KEY=your_groq_api_key_here" > .env
 
 # 5. Launch application
 streamlit run frontend.py
+```
 
 The application will open at `http://localhost:8501`
 
