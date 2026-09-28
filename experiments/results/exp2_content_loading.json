@@ -1,0 +1,182 @@
+[
+  {
+    "index": 1,
+    "content_type": "Web/Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Retrieval-augmented_generation",
+    "load_time": 7.08,
+    "success": true,
+    "error": "",
+    "timestamp": "2026-05-03T11:11:32.588797"
+  },
+  {
+    "index": 2,
+    "content_type": "Web/Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Large_language_model",
+    "load_time": 14.45,
+    "success": true,
+    "error": "",
+    "timestamp": "2026-05-03T11:11:48.043077"
+  },
+  {
+    "index": 3,
+    "content_type": "Web/Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Natural_language_processing",
+    "load_time": 6.61,
+    "success": true,
+    "error": "",
+    "timestamp": "2026-05-03T11:11:55.666880"
+  },
+  {
+    "index": 4,
+    "content_type": "Web/Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Transformer_(machine_learning_model)",
+    "load_time": 11.01,
+    "success": true,
+    "error": "",
+    "timestamp": "2026-05-03T11:12:07.684591"
+  },
+  {
+    "index": 5,
+    "content_type": "Web/Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Vector_database",
+    "load_time": 2.08,
+    "success": true,
+    "error": "",
+    "timestamp": "2026-05-03T11:12:10.776873"
+  },
+  {
+    "index": 6,
+    "content_type": "Web/Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "load_time": 26.02,
+    "success": true,
+    "error": "",
+    "timestamp": "2026-05-03T11:12:37.792332"
+  },
+  {
+    "index": 7,
+    "content_type": "Web/Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Deep_learning",
+    "load_time": 16.93,
+    "success": true,
+    "error": "",
+    "timestamp": "2026-05-03T11:12:55.733557"
+  },
+  {
+    "index": 8,
+    "content_type": "Web/Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Chatbot",
+    "load_time": 5.98,
+    "success": true,
+    "error": "",
+    "timestamp": "2026-05-03T11:13:02.725541"
+  },
+  {
+    "index": 9,
+    "content_type": "Web/Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Knowledge_graph",
+    "load_time": 2.68,
+    "success": true,
+    "error": "",
+    "timestamp": "2026-05-03T11:13:06.415660"
+  },
+  {
+    "index": 10,
+    "content_type": "Web/Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Machine_learning",
+    "load_time": 14.82,
+    "success": true,
+    "error": "",
+    "timestamp": "2026-05-03T11:13:22.244934"
+  },
+  {
+    "index": 1,
+    "content_type": "PDF/ArXiv",
+    "url": "https://arxiv.org/pdf/1706.03762",
+    "load_time": 6.65,
+    "success": true,
+    "error": "",
+    "timestamp": "2026-05-03T11:13:29.897103"
+  },
+  {
+    "index": 2,
+    "content_type": "PDF/ArXiv",
+    "url": "https://arxiv.org/pdf/1810.04805",
+    "load_time": 9.19,
+    "success": true,
+    "error": "",
+    "timestamp": "2026-05-03T11:13:40.094320"
+  },
+  {
+    "index": 3,
+    "content_type": "PDF/ArXiv",
+    "url": "https://arxiv.org/pdf/2005.11401",
+    "load_time": 10.07,
+    "success": true,
+    "error": "",
+    "timestamp": "2026-05-03T11:13:51.172331"
+  },
+  {
+    "index": 4,
+    "content_type": "PDF/ArXiv",
+    "url": "https://arxiv.org/pdf/2106.09685",
+    "load_time": 18.52,
+    "success": true,
+    "error": "",
+    "timestamp": "2026-05-03T11:14:10.712179"
+  },
+  {
+    "index": 5,
+    "content_type": "PDF/ArXiv",
+    "url": "https://arxiv.org/pdf/1910.10683",
+    "load_time": 32.44,
+    "success": true,
+    "error": "",
+    "timestamp": "2026-05-03T11:14:44.168480"
+  },
+  {
+    "index": 6,
+    "content_type": "PDF/ArXiv",
+    "url": "https://arxiv.org/pdf/2302.13971",
+    "load_time": 14.82,
+    "success": true,
+    "error": "",
+    "timestamp": "2026-05-03T11:14:59.994429"
+  },
+  {
+    "index": 7,
+    "content_type": "PDF/ArXiv",
+    "url": "https://arxiv.org/pdf/2307.09288",
+    "load_time": 41.67,
+    "success": true,
+    "error": "",
+    "timestamp": "2026-05-03T11:15:42.676813"
+  },
+  {
+    "index": 8,
+    "content_type": "PDF/ArXiv",
+    "url": "https://arxiv.org/pdf/2204.02311",
+    "load_time": 41.5,
+    "success": true,
+    "error": "",
+    "timestamp": "2026-05-03T11:16:25.190341"
+  },
+  {
+    "index": 9,
+    "content_type": "PDF/ArXiv",
+    "url": "https://arxiv.org/pdf/2112.10403",
+    "load_time": 5.98,
+    "success": true,
+    "error": "",
+    "timestamp": "2026-05-03T11:16:32.180057"
+  },
+  {
+    "index": 10,
+    "content_type": "PDF/ArXiv",
+    "url": "https://arxiv.org/pdf/2203.02155",
+    "load_time": 26.87,
+    "success": true,
+    "error": "",
+    "timestamp": "2026-05-03T11:17:00.060593"
+  }
+]

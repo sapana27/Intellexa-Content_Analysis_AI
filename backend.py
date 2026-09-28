@@ -289,7 +289,7 @@ class ContentManager:
 # ==================== INITIALIZE COMPONENTS ====================
 
 embedding_model = HuggingFaceEmbeddings(model_name="sentence-transformers/paraphrase-multilingual-mpnet-base-v2")
-llm = ChatGroq(temperature=0.4, model_name='Llama-3.3-70b-versatile',max_tokens=3000)
+llm = ChatGroq(temperature=0.4, model_name='llama-3.3-70b-versatile',max_tokens=500)
 search = DuckDuckGoSearchRun()
 
 # Global variables
@@ -609,15 +609,20 @@ Guidelines:
             for msg in messages[:-1]  # Exclude current message
         )
 
+        # FIXED: Use .format() instead of f-string to avoid nested brace issues
+        human_prompt = "Conversation History:\n{history}\n\nCurrent Question: {question}\n\nTranscript Context:\n{context}"
+        
         template_video_response = ChatPromptTemplate.from_messages([
             ("system", system_msg_video),
-            ("human", f"Conversation History:\n{conversation_history}\n\n"
-                     f"Current Question: {user_msg.content}\n\n"
-                     f"Transcript Context:\n{context}")
+            ("human", human_prompt)
         ])
 
         chain_video_response = template_video_response | llm
-        response = chain_video_response.invoke({})
+        response = chain_video_response.invoke({
+            "history": conversation_history,
+            "question": user_msg.content,
+            "context": context
+        })
         
     except Exception as e:
         print(f"Error processing video query: {e}")
@@ -705,15 +710,20 @@ Guidelines:
             for msg in messages[:-1]
         )
 
+        # FIXED: Same fix for web content handler
+        human_prompt = "Conversation History:\n{history}\n\nCurrent Question: {question}\n\nContent Context:\n{context}"
+        
         template_web_response = ChatPromptTemplate.from_messages([
             ("system", system_msg_web),
-            ("human", f"Conversation History:\n{conversation_history}\n\n"
-                     f"Current Question: {user_msg.content}\n\n"
-                     f"Content Context:\n{context}")
+            ("human", human_prompt)
         ])
 
         chain_web_response = template_web_response | llm
-        response = chain_web_response.invoke({})
+        response = chain_web_response.invoke({
+            "history": conversation_history,
+            "question": user_msg.content,
+            "context": context
+        })
         
     except Exception as e:
         print(f"Error processing web content query: {e}")

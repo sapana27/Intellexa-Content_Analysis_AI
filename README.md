@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3.9+-blue.svg" alt="Python Version">
+  <img src="https://img.shields.io/badge/Python-3.11-blue.svg" alt="Python Version">
   <img src="https://img.shields.io/badge/Streamlit-UI Framework-red.svg" alt="Streamlit">
   <img src="https://img.shields.io/badge/LangChain-AI Orchestration-orange.svg" alt="LangChain">
   <img src="https://img.shields.io/badge/RAG-Enhanced-green.svg" alt="RAG Enhanced">
@@ -19,27 +19,49 @@ Intellexa is an advanced AI assistant that lets you have meaningful conversation
 
 | Feature | Advantage |
 |---------|-----------|
-| **🎥 YouTube Video Analysis** | Extract transcripts and chat with any YouTube video content |
-| **📚 Multi-Format Support** | Process PDFs, research papers, news articles, blogs, and webpages |
-| **🧠 Smart Content Routing** | AI-powered decision making for optimal response generation |
+| **🎥 YouTube Video Analysis** | Extract transcripts and chat with any YouTube video content, with timestamp references |
+| **📚 Multi-Format Support** | Process PDFs, ArXiv papers, news articles, blogs, and webpages |
+| **🧠 Smart Content Routing** | Three-tier routing that answers simple queries without extra LLM calls |
+| **🌍 Multilingual** | Chat in English, Hindi, French, Spanish, and German |
 | **🎵 Voice Interaction** | Speak your queries and get audio responses |
 | **💬 Context-Aware Memory** | Remembers conversation history across interactions |
-| **⚡ Real-Time Processing** | Instant responses with Groq's high-speed LLMs |
+| **⚡ Fast Inference** | Quick responses powered by Groq's high-speed LLMs |
 
 ## 🏗 System Architecture
 
-![System Architecture](system_architecture.jpg)
+![System Architecture](Intellexa%20architecture.png)
 
-### High-Level Workflow:
-1. **Content Input** → User provides YouTube URL or web content link
-2. **Processing Engine** → Extracts and processes content based on type
-3. **AI Intelligence** → LangGraph-powered routing and memory management
-4. **Response Generation** → Context-aware answers with optional audio
-5. **User Interaction** → Clean Streamlit interface with voice support
+Intellexa is organised into five layers:
+
+| Layer | Role |
+|-------|------|
+| **Presentation** | Streamlit UI for content loading, text and voice queries, and audio playback |
+| **Orchestrator** | LangGraph workflow that routes each query and generates the response |
+| **Ingestion** | Format-specific processors for web, PDF, ArXiv, news, and YouTube, run only when a URL is loaded |
+| **Data** | ChromaDB vector store with a separate collection for each source |
+| **External Services** | Groq API (LLM), Edge TTS (audio), and youtube-transcript-api (transcripts) |
+
+### Query Routing
+1. **Tier 1** → Regex patterns answer greetings and casual queries instantly
+2. **Tier 2** → Keyword checks detect video- or document-related questions
+3. **Tier 3** → An LLM router classifies anything still ambiguous
+
+Retrieved chunks are selected with **MMR (λ = 0.3)** so answers draw from varied parts of the content rather than near-identical passages.
+
+## 📊 Performance
+
+| Test | Result |
+|------|--------|
+| **Web query response time** | 2.87 s average |
+| **PDF query response time** | 6.87 s average |
+| **Content loading** | 100% success across 20 web and PDF sources |
+| **MMR vs. standard retrieval** | +1.51% diversity across 80 query comparisons |
+
+*Measured on a local machine (Intel Core i7, 16 GB RAM) using the Groq free tier.*
 
 ## 🚀 Quick Start
 
-### Prerequisites: Python 3.9+ & [Groq API Key](https://console.groq.com/keys)
+### Prerequisites: Python 3.11 & [Groq API Key](https://console.groq.com/keys)
 
 ```bash
 # 1. Clone and setup
@@ -54,8 +76,8 @@ venv\Scripts\activate  # Windows
 # 3. Install dependencies
 pip install -r requirements.txt
 
-# 4. Configure environment
-echo "GROQ_API_KEY=your_groq_api_key_here" > .env
+# 4. Configure environment: create a .env file containing
+#    GROQ_API_KEY=your_groq_api_key_here
 
 # 5. Launch application
 streamlit run frontend.py
@@ -63,32 +85,11 @@ streamlit run frontend.py
 
 The application will open at `http://localhost:8501`
 
-## 📹 Demo Video
+<!-- ## 📹 Demo Video
 
 ![Demo Video](demo_video.mp4)
 
-*Watch Intellexa in action: Processing YouTube videos, analyzing research papers, and providing intelligent responses with audio support.*
-
-<!-- ## 💡 Key Advantages
-
-### 🎯 Content Versatility
-- **YouTube Videos**: Automatic transcript extraction and timestamp-based analysis
-- **Research Papers**: ArXiv integration with structured metadata extraction
-- **PDF Documents**: Text extraction with page-level context
-- **News Articles**: Intelligent scraping with author and date information
-- **Web Content**: Advanced processing for blogs and general webpages
-
-### 🧠 Advanced AI Capabilities
-- **Enhanced RAG Pipeline**: Goes beyond basic retrieval with contextual understanding
-- **LangGraph Memory**: Maintains conversation context across multiple interactions
-- **Intelligent Routing**: Automatically detects query type and routes to appropriate handler
-- **Multi-Modal Interaction**: Text and voice input with audio response generation
-
-### ⚡ Performance & User Experience
-- **High-Speed Processing**: Leverages Groq's lightning-fast inference
-- **Real-Time Responses**: Minimal latency for seamless conversations
-- **Voice Integration**: Speak naturally and get spoken responses
-- **Clean Interface**: Intuitive Streamlit UI with modern design -->
+*Watch Intellexa in action: Processing YouTube videos, analyzing research papers, and providing intelligent responses with audio support.* -->
 
 ## 🛠 Usage Guide
 
@@ -111,10 +112,12 @@ The application will open at `http://localhost:8501`
 | **Frontend** | Streamlit |
 | **AI Framework** | LangChain, LangGraph |
 | **LLM** | Groq (Llama-3.3-70b) |
-| **Embeddings** | HuggingFace Sentence Transformers |
-| **Vector Store** | ChromaDB |
-| **Content Processing** | YouTube Transcript API, BeautifulSoup, Newspaper3k |
+| **Embeddings** | HuggingFace paraphrase-multilingual-mpnet-base-v2 |
+| **Vector Store** | ChromaDB (MMR retrieval) |
+| **Content Processing** | YouTube Transcript API, trafilatura, BeautifulSoup, PyPDF2, arxiv, Newspaper3k |
 | **Audio** | Edge TTS, Streamlit Mic Recorder |
+
+> **Note:** Groq has retired Llama-3.3-70b-versatile. To use a newer model, update `model_name` in `backend.py`.
 
 ## 🤝 Contributing
 
@@ -128,8 +131,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 <p align="center">
   <strong>Ready to transform how you interact with content? Start chatting with Intellexa today! 🚀</strong>
-</p>
-
-<p align="center">
-  <em>For questions or support, please open an issue or contact the development team.</em>
 </p>

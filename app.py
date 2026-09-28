@@ -36,7 +36,7 @@ def main():
     def init_components():
         embedding_model = HuggingFaceEmbeddings(model_name="sentence-transformers/paraphrase-multilingual-mpnet-base-v2") #Load the hf Embedding model
         # llm = ChatOpenAI(model='gpt-4o-mini')
-        llm = ChatGroq(temperature=0.4, model_name='Llama-3.3-70b-versatile',max_tokens=3000) #Initialize the llm
+        llm = ChatGroq(temperature=0.4, model_name='llama-3.3-70b-versatile',max_tokens=500) #Initialize the llm
 
         search = DuckDuckGoSearchRun()  #Duckducksearch
         return embedding_model, llm, search

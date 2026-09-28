@@ -1,0 +1,16 @@
+index,query,description,expected,actual,correct,time,timestamp
+1,Hello how are you,greeting,general_query,video_qa,False,0.83,2026-05-03T11:17:01.893843
+2,What can you do?,capability question,general_query,video_qa,False,0.71,2026-05-03T11:17:03.131436
+3,Tell me about yourself,identity question,general_query,video_qa,False,1.09,2026-05-03T11:17:04.742112
+4,Good morning,greeting,general_query,general_query,True,0.42,2026-05-03T11:17:05.672608
+5,What is artificial intelligence?,general knowledge,general_query,video_qa,False,1.33,2026-05-03T11:17:07.510116
+6,What is this YouTube video about?,video topic,video_qa,video_qa,True,0.0,2026-05-03T11:17:08.026003
+7,Summarize the YouTube video for me,video summary,video_qa,video_qa,True,0.0,2026-05-03T11:17:08.531088
+8,What did the speaker say at minute 5?,timestamp query,video_qa,video_qa,True,0.01,2026-05-03T11:17:09.047458
+9,Give me timestamps from the video,timestamp request,video_qa,video_qa,True,0.0,2026-05-03T11:17:09.555249
+10,Explain the main points in this video tutorial,video content,video_qa,video_qa,True,0.02,2026-05-03T11:17:10.076556
+11,Summarize this research paper,paper summary,web_content,web_content,True,0.0,2026-05-03T11:17:10.582641
+12,What are the key findings of this article?,article analysis,web_content,web_content,True,0.01,2026-05-03T11:17:11.092731
+13,Explain the methodology in this PDF,pdf analysis,web_content,web_content,True,0.0,2026-05-03T11:17:11.605635
+14,What does this document say about neural networks?,document query,web_content,web_content,True,0.01,2026-05-03T11:17:12.114398
+15,Give me the abstract of this research,abstract request,web_content,web_content,True,0.0,2026-05-03T11:17:12.629803

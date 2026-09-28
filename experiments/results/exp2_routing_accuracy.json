@@ -1,0 +1,156 @@
+{
+  "accuracy_percent": 73.33333333333333,
+  "total_queries": 15,
+  "results": [
+    {
+      "index": 1,
+      "query": "Hello how are you",
+      "description": "greeting",
+      "expected": "general_query",
+      "actual": "video_qa",
+      "correct": false,
+      "time": 0.83,
+      "timestamp": "2026-05-03T11:17:01.893843"
+    },
+    {
+      "index": 2,
+      "query": "What can you do?",
+      "description": "capability question",
+      "expected": "general_query",
+      "actual": "video_qa",
+      "correct": false,
+      "time": 0.71,
+      "timestamp": "2026-05-03T11:17:03.131436"
+    },
+    {
+      "index": 3,
+      "query": "Tell me about yourself",
+      "description": "identity question",
+      "expected": "general_query",
+      "actual": "video_qa",
+      "correct": false,
+      "time": 1.09,
+      "timestamp": "2026-05-03T11:17:04.742112"
+    },
+    {
+      "index": 4,
+      "query": "Good morning",
+      "description": "greeting",
+      "expected": "general_query",
+      "actual": "general_query",
+      "correct": true,
+      "time": 0.42,
+      "timestamp": "2026-05-03T11:17:05.672608"
+    },
+    {
+      "index": 5,
+      "query": "What is artificial intelligence?",
+      "description": "general knowledge",
+      "expected": "general_query",
+      "actual": "video_qa",
+      "correct": false,
+      "time": 1.33,
+      "timestamp": "2026-05-03T11:17:07.510116"
+    },
+    {
+      "index": 6,
+      "query": "What is this YouTube video about?",
+      "description": "video topic",
+      "expected": "video_qa",
+      "actual": "video_qa",
+      "correct": true,
+      "time": 0.0,
+      "timestamp": "2026-05-03T11:17:08.026003"
+    },
+    {
+      "index": 7,
+      "query": "Summarize the YouTube video for me",
+      "description": "video summary",
+      "expected": "video_qa",
+      "actual": "video_qa",
+      "correct": true,
+      "time": 0.0,
+      "timestamp": "2026-05-03T11:17:08.531088"
+    },
+    {
+      "index": 8,
+      "query": "What did the speaker say at minute 5?",
+      "description": "timestamp query",
+      "expected": "video_qa",
+      "actual": "video_qa",
+      "correct": true,
+      "time": 0.01,
+      "timestamp": "2026-05-03T11:17:09.047458"
+    },
+    {
+      "index": 9,
+      "query": "Give me timestamps from the video",
+      "description": "timestamp request",
+      "expected": "video_qa",
+      "actual": "video_qa",
+      "correct": true,
+      "time": 0.0,
+      "timestamp": "2026-05-03T11:17:09.555249"
+    },
+    {
+      "index": 10,
+      "query": "Explain the main points in this video tutorial",
+      "description": "video content",
+      "expected": "video_qa",
+      "actual": "video_qa",
+      "correct": true,
+      "time": 0.02,
+      "timestamp": "2026-05-03T11:17:10.076556"
+    },
+    {
+      "index": 11,
+      "query": "Summarize this research paper",
+      "description": "paper summary",
+      "expected": "web_content",
+      "actual": "web_content",
+      "correct": true,
+      "time": 0.0,
+      "timestamp": "2026-05-03T11:17:10.582641"
+    },
+    {
+      "index": 12,
+      "query": "What are the key findings of this article?",
+      "description": "article analysis",
+      "expected": "web_content",
+      "actual": "web_content",
+      "correct": true,
+      "time": 0.01,
+      "timestamp": "2026-05-03T11:17:11.092731"
+    },
+    {
+      "index": 13,
+      "query": "Explain the methodology in this PDF",
+      "description": "pdf analysis",
+      "expected": "web_content",
+      "actual": "web_content",
+      "correct": true,
+      "time": 0.0,
+      "timestamp": "2026-05-03T11:17:11.605635"
+    },
+    {
+      "index": 14,
+      "query": "What does this document say about neural networks?",
+      "description": "document query",
+      "expected": "web_content",
+      "actual": "web_content",
+      "correct": true,
+      "time": 0.01,
+      "timestamp": "2026-05-03T11:17:12.114398"
+    },
+    {
+      "index": 15,
+      "query": "Give me the abstract of this research",
+      "description": "abstract request",
+      "expected": "web_content",
+      "actual": "web_content",
+      "correct": true,
+      "time": 0.0,
+      "timestamp": "2026-05-03T11:17:12.629803"
+    }
+  ]
+}

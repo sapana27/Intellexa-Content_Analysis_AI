@@ -1,0 +1,81 @@
+source_label,source_type,url,query,mmr_diversity,std_diversity,mmr_redundancy,std_redundancy,mmr_coverage,std_coverage,mmr_chunks_retrieved,std_chunks_retrieved,timestamp
+Web — RAG Wikipedia,web,https://en.wikipedia.org/wiki/Retrieval-augmented_generation,What is the main concept explained here?,0.9293,0.9154,0.0,0.0,0.3333,0.3333,6,6,2026-05-03T11:46:05.273010
+Web — RAG Wikipedia,web,https://en.wikipedia.org/wiki/Retrieval-augmented_generation,What problem does this work solve?,0.9215,0.9327,0.0,0.0,0.0,0.0,6,6,2026-05-03T11:46:05.371591
+Web — RAG Wikipedia,web,https://en.wikipedia.org/wiki/Retrieval-augmented_generation,What is the theoretical foundation of this approach?,0.9424,0.9134,0.0,0.0,0.0,0.0,6,6,2026-05-03T11:46:05.491992
+Web — RAG Wikipedia,web,https://en.wikipedia.org/wiki/Retrieval-augmented_generation,How is this different from previous methods?,0.9197,0.8734,0.0,0.0,0.75,0.75,6,6,2026-05-03T11:46:05.594419
+Web — RAG Wikipedia,web,https://en.wikipedia.org/wiki/Retrieval-augmented_generation,What methodology or approach is used?,0.9283,0.8983,0.0,0.0,0.0,0.3333,6,6,2026-05-03T11:46:05.696089
+Web — RAG Wikipedia,web,https://en.wikipedia.org/wiki/Retrieval-augmented_generation,Explain the architecture or system design,0.9216,0.9268,0.0,0.0,0.25,0.5,6,6,2026-05-03T11:46:05.783867
+Web — RAG Wikipedia,web,https://en.wikipedia.org/wiki/Retrieval-augmented_generation,What are the key components of this system?,0.929,0.924,0.0,0.0,0.3333,0.3333,6,6,2026-05-03T11:46:05.895063
+Web — RAG Wikipedia,web,https://en.wikipedia.org/wiki/Retrieval-augmented_generation,How are the components connected or integrated?,0.914,0.9432,0.0,0.0,0.0,0.0,6,6,2026-05-03T11:46:06.002232
+Web — RAG Wikipedia,web,https://en.wikipedia.org/wiki/Retrieval-augmented_generation,What are the experimental results?,0.9268,0.8891,0.0,0.0,0.0,0.0,6,6,2026-05-03T11:46:06.098796
+Web — RAG Wikipedia,web,https://en.wikipedia.org/wiki/Retrieval-augmented_generation,What evaluation metrics are used?,0.9268,0.8753,0.0,0.0,0.3333,0.3333,6,6,2026-05-03T11:46:06.204643
+Web — RAG Wikipedia,web,https://en.wikipedia.org/wiki/Retrieval-augmented_generation,What datasets or sources are referenced?,0.9269,0.9247,0.0,0.0,0.6667,0.6667,6,6,2026-05-03T11:46:06.305324
+Web — RAG Wikipedia,web,https://en.wikipedia.org/wiki/Retrieval-augmented_generation,How does performance compare to baselines?,0.931,0.9023,0.0,0.0,0.6667,0.6667,6,6,2026-05-03T11:46:06.412879
+Web — RAG Wikipedia,web,https://en.wikipedia.org/wiki/Retrieval-augmented_generation,Summarize the key contributions of this work,0.9335,0.9055,0.0,0.0,0.5,0.0,6,6,2026-05-03T11:46:06.519572
+Web — RAG Wikipedia,web,https://en.wikipedia.org/wiki/Retrieval-augmented_generation,What is novel about this approach?,0.9206,0.9117,0.0,0.0,0.0,0.0,6,6,2026-05-03T11:46:06.620274
+Web — RAG Wikipedia,web,https://en.wikipedia.org/wiki/Retrieval-augmented_generation,What are the practical applications?,0.9173,0.8743,0.0,0.0,0.0,0.0,6,6,2026-05-03T11:46:06.708753
+Web — RAG Wikipedia,web,https://en.wikipedia.org/wiki/Retrieval-augmented_generation,What future work is suggested?,0.9308,0.9157,0.0,0.0,0.3333,0.3333,6,6,2026-05-03T11:46:06.797651
+Web — RAG Wikipedia,web,https://en.wikipedia.org/wiki/Retrieval-augmented_generation,What are the limitations mentioned?,0.9352,0.9213,0.0,0.0,0.5,0.5,6,6,2026-05-03T11:46:06.887638
+Web — RAG Wikipedia,web,https://en.wikipedia.org/wiki/Retrieval-augmented_generation,What assumptions does this work make?,0.9292,0.9116,0.0,0.0,0.0,0.0,6,6,2026-05-03T11:46:06.987468
+Web — RAG Wikipedia,web,https://en.wikipedia.org/wiki/Retrieval-augmented_generation,What background knowledge is assumed?,0.9212,0.9157,0.0,0.0,0.3333,0.3333,6,6,2026-05-03T11:46:07.081471
+Web — RAG Wikipedia,web,https://en.wikipedia.org/wiki/Retrieval-augmented_generation,How does this work fit into the broader field?,0.9302,0.9309,0.0,0.0,0.4,0.2,6,6,2026-05-03T11:46:07.191452
+Web — LLM Wikipedia,web,https://en.wikipedia.org/wiki/Large_language_model,What is the main concept explained here?,0.9456,0.9361,0.0,0.0,0.3333,0.6667,6,6,2026-05-03T11:46:34.148429
+Web — LLM Wikipedia,web,https://en.wikipedia.org/wiki/Large_language_model,What problem does this work solve?,0.9262,0.9284,0.0,0.0,0.6667,0.6667,6,6,2026-05-03T11:46:34.248449
+Web — LLM Wikipedia,web,https://en.wikipedia.org/wiki/Large_language_model,What is the theoretical foundation of this approach?,0.9356,0.9156,0.0,0.0,0.0,0.0,6,6,2026-05-03T11:46:34.343668
+Web — LLM Wikipedia,web,https://en.wikipedia.org/wiki/Large_language_model,How is this different from previous methods?,0.9304,0.9184,0.0,0.0,0.25,0.25,6,6,2026-05-03T11:46:34.451069
+Web — LLM Wikipedia,web,https://en.wikipedia.org/wiki/Large_language_model,What methodology or approach is used?,0.9412,0.9179,0.0,0.0,0.0,0.3333,6,6,2026-05-03T11:46:34.552445
+Web — LLM Wikipedia,web,https://en.wikipedia.org/wiki/Large_language_model,Explain the architecture or system design,0.9417,0.9376,0.0,0.0,0.5,0.75,6,6,2026-05-03T11:46:34.652211
+Web — LLM Wikipedia,web,https://en.wikipedia.org/wiki/Large_language_model,What are the key components of this system?,0.9404,0.9451,0.0,0.0,0.0,0.0,6,6,2026-05-03T11:46:34.753161
+Web — LLM Wikipedia,web,https://en.wikipedia.org/wiki/Large_language_model,How are the components connected or integrated?,0.9485,0.9449,0.0,0.0,0.6667,0.3333,6,6,2026-05-03T11:46:34.857230
+Web — LLM Wikipedia,web,https://en.wikipedia.org/wiki/Large_language_model,What are the experimental results?,0.9458,0.9394,0.0,0.0,0.0,0.0,6,6,2026-05-03T11:46:34.939052
+Web — LLM Wikipedia,web,https://en.wikipedia.org/wiki/Large_language_model,What evaluation metrics are used?,0.9203,0.9174,0.0,0.0,0.3333,0.3333,6,6,2026-05-03T11:46:35.041295
+Web — LLM Wikipedia,web,https://en.wikipedia.org/wiki/Large_language_model,What datasets or sources are referenced?,0.9559,0.94,0.0,0.0,0.3333,0.3333,6,6,2026-05-03T11:46:35.139106
+Web — LLM Wikipedia,web,https://en.wikipedia.org/wiki/Large_language_model,How does performance compare to baselines?,0.9257,0.9221,0.0,0.0,0.6667,0.6667,6,6,2026-05-03T11:46:35.240449
+Web — LLM Wikipedia,web,https://en.wikipedia.org/wiki/Large_language_model,Summarize the key contributions of this work,0.9442,0.9271,0.0,0.0,0.25,0.5,6,6,2026-05-03T11:46:35.341906
+Web — LLM Wikipedia,web,https://en.wikipedia.org/wiki/Large_language_model,What is novel about this approach?,0.9556,0.906,0.0,0.0,0.0,0.0,6,6,2026-05-03T11:46:35.432676
+Web — LLM Wikipedia,web,https://en.wikipedia.org/wiki/Large_language_model,What are the practical applications?,0.9501,0.921,0.0,0.0,0.0,0.0,6,6,2026-05-03T11:46:35.531058
+Web — LLM Wikipedia,web,https://en.wikipedia.org/wiki/Large_language_model,What future work is suggested?,0.9641,0.9595,0.0,0.0,0.6667,0.6667,6,6,2026-05-03T11:46:35.630267
+Web — LLM Wikipedia,web,https://en.wikipedia.org/wiki/Large_language_model,What are the limitations mentioned?,0.9551,0.9343,0.0,0.0,0.0,0.0,6,6,2026-05-03T11:46:35.711642
+Web — LLM Wikipedia,web,https://en.wikipedia.org/wiki/Large_language_model,What assumptions does this work make?,0.9279,0.9316,0.0,0.0,0.3333,0.3333,6,6,2026-05-03T11:46:35.818931
+Web — LLM Wikipedia,web,https://en.wikipedia.org/wiki/Large_language_model,What background knowledge is assumed?,0.9446,0.933,0.0,0.0,0.3333,0.3333,6,6,2026-05-03T11:46:35.920002
+Web — LLM Wikipedia,web,https://en.wikipedia.org/wiki/Large_language_model,How does this work fit into the broader field?,0.9435,0.9423,0.0,0.0,0.6,0.6,6,6,2026-05-03T11:46:36.026093
+PDF — Attention is All You Need,pdf,https://arxiv.org/pdf/1706.03762,What is the main concept explained here?,0.9091,0.8908,0.0,0.0,0.0,0.0,6,6,2026-05-03T11:46:48.252314
+PDF — Attention is All You Need,pdf,https://arxiv.org/pdf/1706.03762,What problem does this work solve?,0.9435,0.9082,0.0,0.0,0.3333,0.0,6,6,2026-05-03T11:46:48.327420
+PDF — Attention is All You Need,pdf,https://arxiv.org/pdf/1706.03762,What is the theoretical foundation of this approach?,0.9353,0.94,0.0,0.0,0.0,0.0,6,6,2026-05-03T11:46:48.449080
+PDF — Attention is All You Need,pdf,https://arxiv.org/pdf/1706.03762,How is this different from previous methods?,0.9371,0.8891,0.0,0.0,0.75,0.5,6,6,2026-05-03T11:46:48.545355
+PDF — Attention is All You Need,pdf,https://arxiv.org/pdf/1706.03762,What methodology or approach is used?,0.9381,0.9264,0.0,0.0,0.0,0.0,6,6,2026-05-03T11:46:48.646100
+PDF — Attention is All You Need,pdf,https://arxiv.org/pdf/1706.03762,Explain the architecture or system design,0.9022,0.9051,0.0,0.0,0.5,0.25,6,6,2026-05-03T11:46:48.748641
+PDF — Attention is All You Need,pdf,https://arxiv.org/pdf/1706.03762,What are the key components of this system?,0.8961,0.8653,0.0,0.0,0.3333,0.3333,6,6,2026-05-03T11:46:48.848955
+PDF — Attention is All You Need,pdf,https://arxiv.org/pdf/1706.03762,How are the components connected or integrated?,0.9021,0.8566,0.0,0.0,0.0,0.3333,6,6,2026-05-03T11:46:48.937953
+PDF — Attention is All You Need,pdf,https://arxiv.org/pdf/1706.03762,What are the experimental results?,0.9225,0.9171,0.0,0.0,0.0,0.0,6,6,2026-05-03T11:46:49.040150
+PDF — Attention is All You Need,pdf,https://arxiv.org/pdf/1706.03762,What evaluation metrics are used?,0.9332,0.9068,0.0,0.0,0.0,0.3333,6,6,2026-05-03T11:46:49.138765
+PDF — Attention is All You Need,pdf,https://arxiv.org/pdf/1706.03762,What datasets or sources are referenced?,0.9444,0.9338,0.0,0.0,0.0,0.0,6,6,2026-05-03T11:46:49.236625
+PDF — Attention is All You Need,pdf,https://arxiv.org/pdf/1706.03762,How does performance compare to baselines?,0.9229,0.9045,0.0,0.0,0.3333,0.6667,6,6,2026-05-03T11:46:49.345938
+PDF — Attention is All You Need,pdf,https://arxiv.org/pdf/1706.03762,Summarize the key contributions of this work,0.9486,0.9573,0.0,0.0,0.5,0.25,6,6,2026-05-03T11:46:49.445977
+PDF — Attention is All You Need,pdf,https://arxiv.org/pdf/1706.03762,What is novel about this approach?,0.9349,0.92,0.0,0.0,0.3333,0.6667,6,6,2026-05-03T11:46:49.536171
+PDF — Attention is All You Need,pdf,https://arxiv.org/pdf/1706.03762,What are the practical applications?,0.9426,0.9114,0.0,0.0,0.0,0.0,6,6,2026-05-03T11:46:49.636411
+PDF — Attention is All You Need,pdf,https://arxiv.org/pdf/1706.03762,What future work is suggested?,0.9314,0.8986,0.0,0.0,0.6667,0.6667,6,6,2026-05-03T11:46:49.727509
+PDF — Attention is All You Need,pdf,https://arxiv.org/pdf/1706.03762,What are the limitations mentioned?,0.9177,0.9014,0.0,0.0,0.0,0.0,6,6,2026-05-03T11:46:49.820924
+PDF — Attention is All You Need,pdf,https://arxiv.org/pdf/1706.03762,What assumptions does this work make?,0.908,0.9094,0.0,0.0,0.3333,0.3333,6,6,2026-05-03T11:46:49.927453
+PDF — Attention is All You Need,pdf,https://arxiv.org/pdf/1706.03762,What background knowledge is assumed?,0.9162,0.8958,0.0,0.0,0.0,0.0,6,6,2026-05-03T11:46:50.026471
+PDF — Attention is All You Need,pdf,https://arxiv.org/pdf/1706.03762,How does this work fit into the broader field?,0.9203,0.9062,0.0,0.0,0.6,0.6,6,6,2026-05-03T11:46:50.134368
+PDF — RAG Original Paper,pdf,https://arxiv.org/pdf/2005.11401,What is the main concept explained here?,0.9293,0.9287,0.0,0.0,0.3333,0.3333,6,6,2026-05-03T11:47:09.577850
+PDF — RAG Original Paper,pdf,https://arxiv.org/pdf/2005.11401,What problem does this work solve?,0.9204,0.908,0.0,0.0,0.3333,0.3333,6,6,2026-05-03T11:47:09.681510
+PDF — RAG Original Paper,pdf,https://arxiv.org/pdf/2005.11401,What is the theoretical foundation of this approach?,0.9294,0.9189,0.0,0.0,0.0,0.0,6,6,2026-05-03T11:47:09.785237
+PDF — RAG Original Paper,pdf,https://arxiv.org/pdf/2005.11401,How is this different from previous methods?,0.9326,0.9097,0.0,0.0,0.75,0.5,6,6,2026-05-03T11:47:09.893358
+PDF — RAG Original Paper,pdf,https://arxiv.org/pdf/2005.11401,What methodology or approach is used?,0.9025,0.8788,0.0,0.0,0.3333,0.3333,6,6,2026-05-03T11:47:09.993710
+PDF — RAG Original Paper,pdf,https://arxiv.org/pdf/2005.11401,Explain the architecture or system design,0.9131,0.8492,0.0,0.0,0.5,0.5,6,6,2026-05-03T11:47:10.099589
+PDF — RAG Original Paper,pdf,https://arxiv.org/pdf/2005.11401,What are the key components of this system?,0.9105,0.9397,0.0,0.0,0.3333,0.6667,6,6,2026-05-03T11:47:10.203027
+PDF — RAG Original Paper,pdf,https://arxiv.org/pdf/2005.11401,How are the components connected or integrated?,0.9276,0.9301,0.0,0.0,0.0,0.0,6,6,2026-05-03T11:47:10.309942
+PDF — RAG Original Paper,pdf,https://arxiv.org/pdf/2005.11401,What are the experimental results?,0.9331,0.9133,0.0,0.0,0.0,0.0,6,6,2026-05-03T11:47:10.405728
+PDF — RAG Original Paper,pdf,https://arxiv.org/pdf/2005.11401,What evaluation metrics are used?,0.9226,0.9155,0.0,0.0,0.6667,0.6667,6,6,2026-05-03T11:47:10.499251
+PDF — RAG Original Paper,pdf,https://arxiv.org/pdf/2005.11401,What datasets or sources are referenced?,0.9432,0.9091,0.0,0.0,0.3333,0.3333,6,6,2026-05-03T11:47:10.612527
+PDF — RAG Original Paper,pdf,https://arxiv.org/pdf/2005.11401,How does performance compare to baselines?,0.9244,0.9035,0.0,0.0,0.6667,0.6667,6,6,2026-05-03T11:47:10.713211
+PDF — RAG Original Paper,pdf,https://arxiv.org/pdf/2005.11401,Summarize the key contributions of this work,0.9244,0.908,0.0,0.0,0.25,0.5,6,6,2026-05-03T11:47:10.818212
+PDF — RAG Original Paper,pdf,https://arxiv.org/pdf/2005.11401,What is novel about this approach?,0.9339,0.9193,0.0,0.0,0.0,0.3333,6,6,2026-05-03T11:47:10.917548
+PDF — RAG Original Paper,pdf,https://arxiv.org/pdf/2005.11401,What are the practical applications?,0.9028,0.9255,0.0,0.0,0.0,0.0,6,6,2026-05-03T11:47:11.008975
+PDF — RAG Original Paper,pdf,https://arxiv.org/pdf/2005.11401,What future work is suggested?,0.9201,0.9095,0.0,0.0,0.6667,0.6667,6,6,2026-05-03T11:47:11.098923
+PDF — RAG Original Paper,pdf,https://arxiv.org/pdf/2005.11401,What are the limitations mentioned?,0.9169,0.9338,0.0,0.0,0.0,0.0,6,6,2026-05-03T11:47:11.193271
+PDF — RAG Original Paper,pdf,https://arxiv.org/pdf/2005.11401,What assumptions does this work make?,0.9413,0.9291,0.0,0.0,0.3333,0.3333,6,6,2026-05-03T11:47:11.279688
+PDF — RAG Original Paper,pdf,https://arxiv.org/pdf/2005.11401,What background knowledge is assumed?,0.8894,0.915,0.0,0.0,0.3333,0.3333,6,6,2026-05-03T11:47:11.388884
+PDF — RAG Original Paper,pdf,https://arxiv.org/pdf/2005.11401,How does this work fit into the broader field?,0.9231,0.9097,0.0,0.0,0.4,0.4,6,6,2026-05-03T11:47:11.497484

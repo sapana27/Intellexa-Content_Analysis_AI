@@ -1,0 +1,222 @@
+[
+  {
+    "query_no": 1,
+    "query": "What is this about?",
+    "content_type": "web",
+    "query_length": "short",
+    "source_url": "https://en.wikipedia.org/wiki/Retrieval-augmented_generation",
+    "response_time": 1.13,
+    "success": true,
+    "error": "",
+    "timestamp": "2026-05-02T13:20:25.940155"
+  },
+  {
+    "query_no": 2,
+    "query": "What is the main topic?",
+    "content_type": "web",
+    "query_length": "short",
+    "source_url": "https://en.wikipedia.org/wiki/Retrieval-augmented_generation",
+    "response_time": 31.93,
+    "success": true,
+    "error": "",
+    "timestamp": "2026-05-02T13:21:00.374448"
+  },
+  {
+    "query_no": 3,
+    "query": "Give me a brief summary.",
+    "content_type": "web",
+    "query_length": "short",
+    "source_url": "https://en.wikipedia.org/wiki/Retrieval-augmented_generation",
+    "response_time": 43.69,
+    "success": true,
+    "error": "",
+    "timestamp": "2026-05-02T13:21:46.566948"
+  },
+  {
+    "query_no": 4,
+    "query": "What problem does this solve?",
+    "content_type": "web",
+    "query_length": "short",
+    "source_url": "https://en.wikipedia.org/wiki/Retrieval-augmented_generation",
+    "response_time": 0.71,
+    "success": true,
+    "error": "",
+    "timestamp": "2026-05-02T13:21:49.784333"
+  },
+  {
+    "query_no": 5,
+    "query": "Who authored this?",
+    "content_type": "web",
+    "query_length": "short",
+    "source_url": "https://en.wikipedia.org/wiki/Retrieval-augmented_generation",
+    "response_time": 24.69,
+    "success": true,
+    "error": "",
+    "timestamp": "2026-05-02T13:22:16.976299"
+  },
+  {
+    "query_no": 6,
+    "query": "What is the key idea?",
+    "content_type": "web",
+    "query_length": "short",
+    "source_url": "https://en.wikipedia.org/wiki/Retrieval-augmented_generation",
+    "response_time": 0.65,
+    "success": true,
+    "error": "",
+    "timestamp": "2026-05-02T13:22:20.130364"
+  },
+  {
+    "query_no": 7,
+    "query": "What field is this from?",
+    "content_type": "web",
+    "query_length": "short",
+    "source_url": "https://en.wikipedia.org/wiki/Retrieval-augmented_generation",
+    "response_time": 1.64,
+    "success": true,
+    "error": "",
+    "timestamp": "2026-05-02T13:22:24.272925"
+  },
+  {
+    "query_no": 8,
+    "query": "What is the conclusion?",
+    "content_type": "web",
+    "query_length": "short",
+    "source_url": "https://en.wikipedia.org/wiki/Retrieval-augmented_generation",
+    "response_time": 14.82,
+    "success": true,
+    "error": "",
+    "timestamp": "2026-05-02T13:22:41.600838"
+  },
+  {
+    "query_no": 9,
+    "query": "What method is used?",
+    "content_type": "web",
+    "query_length": "short",
+    "source_url": "https://en.wikipedia.org/wiki/Retrieval-augmented_generation",
+    "response_time": 15.85,
+    "success": true,
+    "error": "",
+    "timestamp": "2026-05-02T13:22:59.957193"
+  },
+  {
+    "query_no": 10,
+    "query": "What are the results?",
+    "content_type": "web",
+    "query_length": "short",
+    "source_url": "https://en.wikipedia.org/wiki/Retrieval-augmented_generation",
+    "response_time": 11.81,
+    "success": true,
+    "error": "",
+    "timestamp": "2026-05-02T13:23:14.268486"
+  },
+  {
+    "query_no": 11,
+    "query": "Summarize the main points of this content.",
+    "content_type": "web",
+    "query_length": "medium",
+    "source_url": "https://en.wikipedia.org/wiki/Transformer_(machine_learning_model)",
+    "response_time": 45.08,
+    "success": true,
+    "error": "",
+    "timestamp": "2026-05-02T13:24:01.850700"
+  },
+  {
+    "query_no": 12,
+    "query": "What are the key contributions described here?",
+    "content_type": "web",
+    "query_length": "medium",
+    "source_url": "https://en.wikipedia.org/wiki/Transformer_(machine_learning_model)",
+    "response_time": 17.83,
+    "success": true,
+    "error": "",
+    "timestamp": "2026-05-02T13:24:22.197885"
+  },
+  {
+    "query_no": 13,
+    "query": "Explain the approach taken in this work.",
+    "content_type": "web",
+    "query_length": "medium",
+    "source_url": "https://en.wikipedia.org/wiki/Transformer_(machine_learning_model)",
+    "response_time": 44.94,
+    "success": true,
+    "error": "",
+    "timestamp": "2026-05-02T13:25:09.653022"
+  },
+  {
+    "query_no": 14,
+    "query": "What datasets or sources are referenced?",
+    "content_type": "web",
+    "query_length": "medium",
+    "source_url": "https://en.wikipedia.org/wiki/Transformer_(machine_learning_model)",
+    "response_time": 0.97,
+    "success": true,
+    "error": "",
+    "timestamp": "2026-05-02T13:25:13.129733"
+  },
+  {
+    "query_no": 15,
+    "query": "Describe the architecture or system design.",
+    "content_type": "web",
+    "query_length": "medium",
+    "source_url": "https://en.wikipedia.org/wiki/Transformer_(machine_learning_model)",
+    "response_time": 12.04,
+    "success": true,
+    "error": "",
+    "timestamp": "2026-05-02T13:25:27.689164"
+  },
+  {
+    "query_no": 16,
+    "query": "What limitations are acknowledged by the authors?",
+    "content_type": "web",
+    "query_length": "medium",
+    "source_url": "https://en.wikipedia.org/wiki/Transformer_(machine_learning_model)",
+    "response_time": 44.13,
+    "success": true,
+    "error": "",
+    "timestamp": "2026-05-02T13:26:14.338904"
+  },
+  {
+    "query_no": 17,
+    "query": "How does this compare to previous methods?",
+    "content_type": "web",
+    "query_length": "medium",
+    "source_url": "https://en.wikipedia.org/wiki/Transformer_(machine_learning_model)",
+    "response_time": 0.92,
+    "success": true,
+    "error": "",
+    "timestamp": "2026-05-02T13:26:17.762315"
+  },
+  {
+    "query_no": 18,
+    "query": "What evaluation metrics are used?",
+    "content_type": "web",
+    "query_length": "medium",
+    "source_url": "https://en.wikipedia.org/wiki/Transformer_(machine_learning_model)",
+    "response_time": 7.75,
+    "success": true,
+    "error": "",
+    "timestamp": "2026-05-02T13:26:28.010958"
+  },
+  {
+    "query_no": 19,
+    "query": "Explain the background and motivation.",
+    "content_type": "web",
+    "query_length": "medium",
+    "source_url": "https://en.wikipedia.org/wiki/Transformer_(machine_learning_model)",
+    "response_time": 38.04,
+    "success": true,
+    "error": "",
+    "timestamp": "2026-05-02T13:27:08.559476"
+  },
+  {
+    "query_no": 20,
+    "query": "What are the practical applications of this work?",
+    "content_type": "web",
+    "query_length": "medium",
+    "source_url": "https://en.wikipedia.org/wiki/Transformer_(machine_learning_model)",
+    "response_time": 0.87,
+    "success": true,
+    "error": "",
+    "timestamp": "2026-05-02T13:27:11.938800"
+  }
+]
